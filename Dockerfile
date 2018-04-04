@@ -1,4 +1,4 @@
-FROM hub.c.163.com/lizhentao/springcloudstudy-eureka:base
+FROM hub.c.163.com/lizhentao/springcloudstudy-config:base
 MAINTAINER lizhentao
 COPY . /usr/lzt/
 ENV M2_HOME=/usr/lib/maven
